@@ -1,0 +1,28 @@
+使用指南
+支持数组，单个数据（弱类型），如下：
+array = [4, 2, 40 + 2, 42， "HelloWorld"];
+————————分割线————————
+支持函数：
+def hello(){
+	print("HelloWorld");
+}
+hello();
+————————分割线————————
+支持if，else，else if（使用了elif替代）
+
+if (factor...){
+	code...
+}elif (factor...){
+	code...
+}else {
+	code...
+}
+————————分割线————————
+支持while
+
+sum = 0；
+index = 0；
+while index < 3{
+  index = index + 1;
+  sum = sum + 1;
+}
