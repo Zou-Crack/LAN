@@ -1,0 +1,11 @@
+def hello(){
+	print("HelloWorld");
+}
+array = [1, 2, 3 + 4, "haha"];
+array[0] = 3;
+
+if (array[0] == 1){
+	print("array is 1");
+}elif (array[0] == 3){
+	print("array is 3");
+}
